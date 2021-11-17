@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home-image{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.back-noir-image{
+  background-color: rgba(0, 0, 0, 0.767);
+    height: 650px;
+    width: 100%;
+    margin-top: -670px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.myform{
+    margin-top: 50%;
+}
+[for*="au"]{
+    color: black;
+    opacity: 0.7;
+    display: block;
+    margin: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.authentification{
+    color: white;
+    height: 30px;
+   padding-top: 5px;
+    background-color: #029dbe;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bien{
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center !important;
+    color: white;
+}
+.bine-sous{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center !important;
+    width: 80%;
+    margin: auto;
+}
+.btn-connection{
+    border: 1px solid #029dbe;
+      width: 90px;
+      height: 40px;
+      border-radius: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      margin-top: 20px;
+      background-color: #029dbe;
+      transition: 0.5s;
+}
+.btn-connection:hover{
+    background-color: transparent;
+    color: #029dbe;
+    transition: 0.5s;
+}
+.chat-with-me{
+    height: 70px;
+    width: 100%;
+    background-color:#01151a;
+    color: white;
+}
+/*************************************************************************
+        MY chat 
+*************************************************************************/
+header{
+    height:70px;
+    width: 100%;
+    background-color:#042d36;
+    color:white;
+}
+header nav ul li a{
+ color:white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration:none;
+}
+header nav li{
+    list-style-type: none;
+    display:inline-flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+header nav{
+    text-align: right;
+    margin-right: 200px;
+}
